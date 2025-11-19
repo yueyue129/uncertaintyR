@@ -1,0 +1,39 @@
+Package: uncertaintyR
+Type: Package
+Title: Quantifying and Visualizing Predictive Uncertainty Across Models
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Yueyue", "Chang", email = "you@example.com", role = c("aut", "cre")),
+    person("GPT-5", "Codex", role = "ctb", comment = "Assistant code generation")
+    )
+Description: Provides a unified interface for estimating, benchmarking, and visualizing
+    predictive uncertainty across classical statistical and machine learning models.
+    Supports bootstrap, jackknife, Bayesian sampling, and conformal prediction intervals,
+    including diagnostic plots and benchmarking utilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.1)
+Imports:
+    ggplot2,
+    stats,
+    Rcpp,
+    dplyr,
+    tibble,
+    MASS
+Suggests:
+    testthat (>= 3.1.0),
+    knitr,
+    rmarkdown,
+    caret,
+    xgboost,
+    tidyr,
+    purrr,
+    bench
+LinkingTo:
+    Rcpp
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
+VignetteBuilder: knitr

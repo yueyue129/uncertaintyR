@@ -1,0 +1,12 @@
+^.*\\.Rproj$
+^\\.Rproj\\.user$
+^\\.github$
+^README\\.Rmd$
+^README\\.md$
+^vignettes/.+\\.html$
+^vignettes/.+\\.pdf$
+^benchmarks$
+^\\.DS_Store$
+
+^doc$
+^Meta$
