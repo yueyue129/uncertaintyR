@@ -55,5 +55,5 @@ Issues and pull requests are welcome. Please run `devtools::check()` before subm
 
 ## License
 
-MIT © Yueyue Chang
+MIT © Yueyue129
 
